@@ -198,7 +198,8 @@ public final class Undertow {
     public static enum ListenerType {
         HTTP,
         HTTPS,
-        AJP
+        AJP,
+        TRAF
     }
 
     private static class ListenerConfig {
